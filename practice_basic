@@ -1,0 +1,44 @@
+// ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+
+using namespace std;
+using text = string;
+
+
+int main() {
+
+	
+	/*int x = 1;
+	double y = 2.5;
+		cout << x << " boy." << " is playing with a ball that weighs " << y;*/
+	
+	/*typedef string text_t;
+
+	text_t myname = "my name is abe, nice to meet you.";
+
+	cout << myname << '\n';
+	cout << "what is your name?";*/
+
+	/*text myname = "Adam";
+	number age = 25;
+	
+	cout << "Hello everyone, my name is  " << myname << '\n';
+	cout << "I'm " << age << " years old" << '\n';*/
+
+	text name;
+	int age;
+
+	cout << "What is your name? " << '\n';
+	cin >> name;
+	cout << "What is your age? " << '\n';
+	cin >> age;
+
+	cout << "Hello " << name << '\n';
+	cout << "You are " << age << " years old! " << '\n';
+
+
+	 
+	return 0;
+}
