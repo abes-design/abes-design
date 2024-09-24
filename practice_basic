@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 using text = string;
@@ -13,21 +14,21 @@ int main() {
 	/*int x = 1;
 	double y = 2.5;
 		cout << x << " boy." << " is playing with a ball that weighs " << y;*/
-	
+	////////////////////////////
 	/*typedef string text_t;
 
 	text_t myname = "my name is abe, nice to meet you.";
 
 	cout << myname << '\n';
 	cout << "what is your name?";*/
-
+	///////////////////////////
 	/*text myname = "Adam";
 	number age = 25;
 	
 	cout << "Hello everyone, my name is  " << myname << '\n';
 	cout << "I'm " << age << " years old" << '\n';*/
-
-	text name;
+	////////////////////////
+	/*text name;
 	int age;
 
 	cout << "What is your name? " << '\n';
@@ -36,9 +37,217 @@ int main() {
 	cin >> age;
 
 	cout << "Hello " << name << '\n';
-	cout << "You are " << age << " years old! " << '\n';
+	cout << "You are " << age << " years old! " << '\n';*/
+	///////////////////
+	/*double x = 29;
+	double y = 3;
+	double z, q, w, e, a, p, l, b  ;
 
+	z = max(x, y);
+	q = min(x, y);
+	w = pow(x, y);
+	e = sqrt(x + y);
+	a = abs(-y);
+	p = round(e);
+	l = ceil(e);
+	b = floor(e);
 
+	cout << z << '\n';
+	cout << q << '\n';
+	cout << w << '\n';
+	cout << e << '\n';
+	cout << a << '\n';
+	cout << p << '\n';
+	cout << l << '\n';
+	cout << b << '\n';*/
+	//////////////////////////
+	//double a;
+	//double b;
+	//double c;
+
+	//cout << "Enter side A: ";
+	//cin >> a;
+
+	//cout << "Enter side B: ";
+	//cin >> b;
+
+	//a = pow(a, 2);
+	//b = pow(b, 2);
+	//c = sqrt(a + b);
+
+	//cout << "The hypotenuse	is " << c << '\n';
+
+	/////////////////////////////
+
+	/*int age;
+	cout << "Enter your age: ";
+	cin >> age;
 	 
+	if (age >= 100) {
+
+		cout << "You are too old for this class";
+	}
+		
+		
+	else if (age <=0) {
+
+		cout << "Not born yet!!";
+	}
+	else if (age >= 18) {
+
+		cout << "Welcome to the class! ";
+	}
+
+	else {
+
+		cout << "INVALID ANSWER!!!";
+	}*/
+	 
+	///////////////////////////
+
+	/*int month;
+
+	cout << "Enter the month(1-12): ";
+	cin >> month;
+
+	switch (month) {
+
+	case 1: 
+		cout << " It is January";
+		break;
+	case 2:
+		cout << " It is February";
+		break;
+	case 3:
+		cout << " It is March";
+		break;
+	case 4:
+		cout << " It is April";
+		break;
+	case 5:
+		cout << " It is May";
+		break;
+	case 6:
+		cout << " It is June";
+		break;
+	case 7:
+		cout << " It is July";
+
+		break;
+	case 8:
+		cout << " It is Augest";
+		break;
+	case 9:
+		cout << " It is September";
+		break;
+	case 10:
+		cout << " It is October";
+		break;
+	case 11:
+		cout << " It is November";
+		break;
+	case 12:
+		cout << " It is December";
+		break;
+	default:
+		cout << "Invalid Input";
+
+	}*/
+
+//////////////////////////////////////
+
+//char op;
+//double num1;
+//double num2;
+//double result;
+//
+//cout << " Calculator \n";
+//
+//cout << " Enter either ( + - * / ): ";
+//cin >> op;
+//
+//cout << "Enter #1: ";
+//cin >> num1;
+//
+//cout << "Enter #2: ";
+//cin >> num2;
+//
+//switch (op) {
+//
+//case '+':
+//	result = num1 + num2;
+//	cout << "result = " << result << '\n';
+//	break;
+//
+//case '-':
+//	result = num1 - num2;
+//	cout << "result = " << result << '\n';
+//	break;
+//
+//
+//case '*':
+//	result = num1 * num2;
+//	cout << "result = " << result << '\n';
+//	break;
+//
+//case '/':
+//	result = num1 / num2;
+//	cout << "result = " << result << '\n';
+//	break;
+//
+//default:
+//	cout << " that was not a valid response" << '\n';
+//
+//}
+
+////////////////////////////////////
+// instead of an if statement we can use ternary operator ?: = replace to an if/else statement
+// condition ? expression1 : expression2;
+
+//int grade;
+//cout << " Enter grade: " <<'\n';
+//cin >> grade;
+//
+//grade >= 60 ? cout << "You pass!" : cout << "You fail!";
+
+//////////////////////////////
+
+//double temp;
+//char unit;
+//
+//cout << "**********Temperature Conversion Calculator.*****************\n";
+//cout << "F = Fahrenheit\n";
+//cout << "C = Celcius\n";
+//cout << "What unit would you like to convert to: ";
+//cin >> unit;
+//
+//if (unit == 'F' || unit == 'f' ) {
+//	cout << "Enter the temperature in Celcius: ";
+//	cin >> temp;
+//
+//	temp = (1.8 * temp) + 32.0;
+//	cout << "Temperature is: " << temp << "F\n";
+//
+//
+//}
+//
+//else if (unit == 'C' || unit == 'c') {
+//	cout << "Enter the temperature in Fahrenheit: ";
+//	cin >> temp;
+//
+//	temp = (temp - 32) / 1.8;
+//	cout << "Temperature is: " << temp << "C\n";
+//
+//}
+//
+//else {
+//
+//	cout << "Please enter C or F\n";
+//}
+
+//////////////////////////////////////////////
+
+
+
 	return 0;
 }
