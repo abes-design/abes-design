@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @abes-design
 - 👀 I’m interested in expanding my coding knowledge in C++, python, java, MATLAB.
-- 🌱 I’m currently learning more C++ and python using bro code videos.
+- 🌱 I’m currently learning more C++ and python using Bro Code videos.
 - 💞️ I’m looking to collaborate on projects that help build my coding abilities.
 - 📫 Reach me by email: abe.zeineddine@gmail.com
 
